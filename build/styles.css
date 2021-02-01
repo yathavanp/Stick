@@ -1,0 +1,206 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html {
+  font-family: "Montserrat", sans-serif;
+}
+body {
+  background: rgba(255, 255, 255, 0.068);
+  background-image: url("https://www.transparenttextures.com/patterns/shattered.png");
+  
+}
+
+header {
+  background-color: #165a0e;
+  margin: auto ;
+  padding: 16px 32px;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
+}
+
+header h1 {
+  color: #fff;
+  font-family: 'Sarabun', sans-serif;
+  font-weight: 200;
+}
+
+.auth{
+  font-size: 25px;
+  text-align: center;
+}
+
+.sign-in{
+margin: 30px auto 10px;
+background-color:  #628f5e;
+border: none;
+}
+
+
+.log-out{
+margin: -38px auto;
+float: right;
+font-family: 'Sarabun', sans-serif;
+background-color:  #628f5e;
+border: none;
+}
+
+.log-out:hover{
+  background-color:  white;
+  color:#628f5e;
+}
+
+.sign-in:hover{
+  background-color: #165a0e;
+  }
+
+.register{
+background-color:  white;
+color:#628f5e;
+border-color: #628f5e;
+}
+
+.register:hover{
+  background-color: #1e331a;
+  border-color:  #1e331a;
+}
+
+.middle-password{
+  border-radius: 0px;
+}
+.confirm-password{
+  margin-top: -11px;
+}
+
+
+footer {
+  position: absolute;
+  text-align: center;
+  bottom: 0;
+  width: 100%;
+  height: 2.5rem;
+}
+
+footer p {
+  color: #ccc;
+}
+.note {
+  background: #fff;
+  border-radius: 7px;
+  box-shadow: 0 2px 5px #ccc;
+  padding: 10px;
+  width: 240px;
+  margin: 16px;
+  float: left;
+}
+.note h1 {
+  font-size: 1.1em;
+  margin-bottom: 6px;
+}
+.note p {
+  font-size: 1.1em;
+  margin-bottom: 10px;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+}
+
+.note button {
+  position: relative;
+  float: right;
+  margin-right: 10px;
+  color: #165a0e;
+  border: none;
+  width: 36px;
+  height: 36px;
+  cursor: pointer;
+  outline: none;
+  background-color: white;
+}
+
+
+.note button:hover {
+  color: rgb(138, 137, 137);
+}
+
+form.create-note {
+  position: relative;
+  width: 480px;
+  margin: 30px auto 20px auto;
+  background: #fff;
+  padding: 15px;
+  border-radius: 7px;
+  box-shadow: 0 1px 5px rgb(138, 137, 137);
+}
+form.create-note input,
+form.create-note textarea {
+  width: 100%;
+  border: none;
+  padding: 4px;
+  outline: none;
+  font-size: 1.2em;
+  font-family: inherit;
+  resize: none;
+}
+form.create-note button {
+  position: absolute;
+  right: 18px;
+  bottom: -18px;
+  background: #165a0e;
+  color: #fff;
+  border: none;
+  border-radius: 50%;
+  width: 36px;
+  height: 36px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+  outline: none;
+}
+
+a{
+  text-decoration: none;
+  color: inherit;
+}
+
+.form-signin {
+  width: 100%;
+  max-width: 430px;
+  padding: 40px;
+  margin: 150px auto ;
+}
+.form-signin .checkbox {
+  font-weight: 400;
+}
+.form-signin .form-control {
+  position: relative;
+  box-sizing: border-box;
+  height: auto;
+  padding: 10px;
+  font-size: 16px;
+}
+.form-signin .form-control:focus {
+  z-index: 2;
+}
+.form-signin input[type="email"] {
+  margin-bottom: -1px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+.form-signin input[type="password"] {
+  margin-bottom: 10px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+
+main{
+  background: #fff;
+  border-radius: 7px;
+  width: 480px;
+  box-shadow: 0 1px 5px rgb(138, 137, 137); 
+  text-align: center;
+  
+}
+
+a:hover{
+  text-decoration: none;
+  color: rgb(223, 226, 224);
+}
